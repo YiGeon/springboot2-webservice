@@ -1,14 +1,12 @@
 package com.gun.springboot.config.auth.dto;
 
-import com.gun.springboot.domain.user.Role;
 import com.gun.springboot.domain.user.User;
-import lombok.Builder;
 import lombok.Getter;
 
-import java.util.Map;
+import java.io.Serializable;
 
 @Getter
-public class SessionUser {
+public class SessionUser implements Serializable {
     private String name;
     private String email;
     private String picture;

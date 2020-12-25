@@ -1,6 +1,5 @@
 package com.gun.springboot.web.dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
