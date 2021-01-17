@@ -34,6 +34,8 @@ deploy:
    access_key_id: $AWS_ACCESS_KEY
    secret_access_key: $AWS_SECRET_KEY
    bucket: springboot-parkegun-build
+   key: springboot2-webservice.zip
+   bundle_type: zip
    application: springboot2-webservice
    deployment_group: springboot2-webservice-group
    region: ap-northeast-2
